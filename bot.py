@@ -95,8 +95,8 @@ async def report_command(event):
     if not await is_user_in_channel(user_id):
         await event.reply(
             "👋🏻**Hey! You must join our channel to use this bot.**",
-            buttons=[Button.url("Offchats", f"https://t.me/{CHANNEL_USERNAME}"),
-Button.url("Python-Botz", "https://t.me/+WPKg3Ci2sMBkMDc1   ")]
+            buttons=[Button.url("offchats", f"https://t.me/{CHANNEL_USERNAME}"),
+Button.url("Python-Botz", "https://t.me/+WPKg3Ci2sMBkMDc1")]
         )
         return
 
